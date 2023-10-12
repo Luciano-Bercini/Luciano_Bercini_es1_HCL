@@ -2,7 +2,6 @@ import java.io.FileNotFoundException;
 
 public class Tester {
     public static void main(String[] args) {
-        System.out.println(args.length);
         if (args.length == 0) {
             System.out.println("Usage: java Tester <input_file>");
             return;
